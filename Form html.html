@@ -1,0 +1,99 @@
+<html>
+      <head>
+<title>Form Element</title>
+<link rel="stylesheet" href="Form css.css">
+      </head>
+<body>
+
+<form novalidate>
+<table>
+<h1 style="text-align: center; margin:5px; padding:5px;">Web Form</h1><hr>
+<tr>
+<td>Name</td>
+<td><input type ="text" placeholder="Write your full name" required ></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="Write E-mail adress" autofocus></td>
+</tr>
+<tr>
+<td>Give Remarks</td>
+<td><input type="number" min="0" max="10"></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" min="1990-12-10" max="2021-10-18" required></td>
+</tr>
+<tr>
+<td>Date of Birth (with week)</td>
+<td><input type="week" min="1990-12-10" max="2021-10-18" autofocus></td>
+</tr>
+<tr>
+<td>Date of Birth (with month)</td>
+<td><input type="month" min="1990-12-10" max="2021-10-18"></td>
+</tr>
+<tr>
+<td>Date of Birth (with time)</td>
+<td><input type="time"></td>
+</tr>
+<tr>
+<td>Date of Birth (with date time)</td>
+<td><input type="datetime-local"></td>
+</tr>
+<tr>
+<td>Website Adrees</td>
+<td><input type="url"></td>
+</tr>
+<tr>
+<td>Range input</td>
+<td><input type="range" min="0" max="10" value="5" step="2"></td>
+</tr>
+<tr>
+<td>Select an image </td>
+<td><input type="file"></td>
+</tr>
+<tr>
+<td>Select an image </td>
+<td><input type="file" multiple></td>
+</tr>
+<tr>
+<td>Select a color</td>
+<td><input type="color"></td>
+</tr>
+<tr>
+<td>Select country</td>
+<td>
+
+<select>
+<option>Pakistan</option>
+<option>india</option>
+<option>Bangladesh</option>
+<option>iran</option>
+<option>Germany</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>Select country with Datalist Tag</td>
+<td>
+<input list="koi b name ho sakta hai" >
+<datalist id="koi b name ho sakta hai">
+<option>Pakistan</option>
+<option>India</option>
+<option>Bangladesh</option>
+<option>Iran</option>
+<option>Germany</option>
+</td>
+</tr>
+<tr>
+<td>Button</td>
+<td><input type="submit"></td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
